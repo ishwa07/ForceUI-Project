@@ -29,7 +29,7 @@ ForceUI is a cutting-edge **Generative UI** application designed for emergency r
     ```
 3.  **Set API Key**:
     *   Create a `.env` file in the root directory.
-    *   Add: `VITE_TAMBO_API_KEY=your_key_here`
+    *   Add: `tambo_YBC557vS/sjl2RSSJgeplP0SYqytpGzP2BBhF3osHis4bflwNV1b6o7HMVNrsCYnmV2PlZslUE4s4M6PBi/zel8XLA8HP+RRpachi4POzWs=`
 4.  **Start Server**:
     ```bash
     npm run dev
