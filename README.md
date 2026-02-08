@@ -36,18 +36,3 @@ ForceUI is a cutting-edge **Generative UI** application designed for emergency r
     ```
 5.  **View**: Open `http://localhost:5173`.
 
-## 📦 How to Deploy (Share)
-
-### Deploy to Vercel (Best for Demos)
-1.  Push this code to a **GitHub repository**.
-2.  Go to [Vercel](https://vercel.com) and import the repo.
-3.  **Important**: In Vercel "Environment Variables", add `VITE_TAMBO_API_KEY` with your key.
-4.  Click **Deploy**.
-
-### Share Code
-1.  Delete the `node_modules` folder.
-2.  Zip the project folder.
-3.  Share the Zip file.
-
-## 📝 License
-This project is original work created for the purpose of demonstrating advanced Generative UI concepts.
