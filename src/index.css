@@ -1,0 +1,96 @@
+:root {
+  /* Brand Colors */
+  --primary: #4f46e5;
+  /* Indigo 600 */
+  --primary-light: #6366f1;
+  /* Indigo 500 */
+  --primary-dark: #4338ca;
+  /* Indigo 700 */
+  --accent: #ec4899;
+  /* Pink 500 */
+
+  /* Neutral Colors */
+  --bg-app: #f8fafc;
+  /* Slate 50 */
+  --bg-panel: #ffffff;
+  --text-main: #0f172a;
+  /* Slate 900 */
+  --text-muted: #64748b;
+  /* Slate 500 */
+  --border: #e2e8f0;
+  /* Slate 200 */
+
+  /* UI Elements */
+  --bubble-user: #4f46e5;
+  --text-user: #ffffff;
+  --bubble-ai: #ffffff;
+  --text-ai: #0f172a;
+
+  /* Components */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s;
+}
